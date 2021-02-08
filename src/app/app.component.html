@@ -1,0 +1,43 @@
+<div class="container-fluid p-0 m-0 d-flex justify-content-center">
+
+    <div class="card text-white bg-primary mb-3 d-flex " style="max-width: 25rem;">
+  
+      <div class="cabeçario text-center ">Weather</div>
+      
+      <div class="card-body">
+        
+        <div #cidadea class="cidade text-center">{{city}}</div>
+        <div class="regiao text-center">{{regiao}}</div>
+        <div class="clima text-center">{{clima}}</div>
+        
+        <div class="container-icone  d-flex justify-content-center" id="icone">
+          <img src="{{icon}}">
+        </div>
+        
+        <div class="temp text-center ">{{temp}}</div>
+        <div class="data text-center">{{data}}</div>
+        <br>
+        
+        
+        <div class="card-footer bg-transparent border-success">
+       
+          
+            
+          <div class="container-icone  d-flex justify-content-center">
+            <i class="fas fa-arrow-down fa-3x"></i>
+          </div>
+
+          <div class="input-group mb-3">
+            <input #cidade type="text" class="nomeCity" placeholder="Insira o nome da cidade" aria-label="cidade-pesquisa" aria-describedby="button-addon2" (keydown.enter)="resultadosPesquisa(cidade.value)" >
+          
+            <div class="input-group-btn">
+            <button  class="btn" type="button" id="pesquisa" (click)="resultadosPesquisa(cidade.value)"><i class="fas fa-search"></i></button>
+            </div>  
+          </div>
+
+        </div>
+       
+      </div>
+        
+    </div>
+  </div>

@@ -1,0 +1,43 @@
+.cabeçario{
+    font-size: 32px;
+    margin: 20px 25px 20px;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+.cidade{
+    font-size: 26px;
+
+}
+
+.clima{
+    font-size: 22px;
+}
+
+.temp{
+    font-size: 18px;
+    text-shadow: 1px 1px rgb(11, 0, 48);
+}
+
+.data{
+    font-size: 16px;
+}
+
+.container-icone {
+    margin: 25px 0px 25px;
+}
+
+.regiao {
+    font-size: 20px;
+}
+
+.nomeCity {
+    width: 230px;
+    height: 30px;
+}
+
+
+.btn {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(248, 142, 142);
+}
